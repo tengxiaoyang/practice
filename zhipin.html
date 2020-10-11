@@ -1,405 +1,6 @@
 <html>
   <head>
-    <style>
-      body {
-        margin: 0;
-        }
-      #header {
-        width: 100%;
-        height: 49px;
-        background: #202329;
-        display: flex;
-        justify-content: center;
-        }
-      .header-main {
-        width: 1184px;
-        height: 49px;
-        display: flex
-        }
-       .logo {
-        flex: 1.8;
-        width: 105px;
-        height: 30px;
-        background: url(https://static.zhipin.com/zhipin-geek/v313/web/geek/images/logo-2x.png) 3px 7px no-repeat;
-        background-size: 105px 19px;
-        position: relative;
-        top: 5px; 
-        }
-      .nav-city {
-        flex: 2;
-        display: flex;
-        width: 110px;
-        height: 36px;
-        position: relative;
-      }
-      .icon-poi {
-        flex: 0.4;
-        width: 15px;
-        height: 28px;
-        background: url(https://static.zhipin.com/zhipin-geek/v313/web/geek/images/icon-poi.png) 0 -165px;
-        margin: 16px 3px 0 12px;
-      }
-      .nav-city-selected {
-        flex: 1;               
-        width: 28px;
-        height: 14px;
-        font-size: 14px;
-        color: #00d7c6;
-        position: relative;
-        top:13px;
-      }
-      .switchover-city {
-        flex: 2;               
-        width: 60px;
-        height: 14px;
-        font-size: 12px;
-        color: #ffffff;
-        position: relative;
-        top:15px;
-      }
-      .nav {
-        flex: 4;
-        display: flex;
-        width: 340px;
-        height: 48.8px;
-        position: relative;
-        font-size: 14px;
-      }
-      .header-home {
-        flex: 1;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #00d7c6;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-        position: relative;
-      }
-      .header-job {
-        flex: 1;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .header-job:hover {
-        color: #00d7c6;
-      }
-      .nav-school-new {
-        flex: 1;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .nav-school-new:hover {
-        color: #00d7c6;
-      }
-      .header_brand {
-        flex: 1;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .header_brand:hover {
-        color: #00d7c6;
-      }
-      .header-app {
-        flex: 1;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .header-app:hover {
-        color: #00d7c6;
-      }
-      .header-article {
-        flex: 1;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .header-article:hover {
-        color: #00d7c6;
-      }
-      .btns {
-        flex: 10;
-        display: flex;
-        width: 340px;
-        height: 48.8px;
-        position: relative;
-        font-size: 14px;
-      }
-      .nlp_resume_upload {
-        flex: 1.5;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-        position: relative;
-        margin: 0 0 0 300px;
-      }
-      .nlp_resume_upload:hover {
-        color: #00d7c6;
-      }
-      .header-geek {
-        flex: 2;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .header-geek:hover {
-        color: #00d7c6;
-      }
-      .header-boss {
-        flex: 1.5;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 48.8px;
-      }
-      .header-boss:hover {
-        color: #00d7c6;
-      }
-      .header-register {
-        flex: 0.7;
-        display: flex;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 15px;
-        border: 1px solid#00d7c6;
-        border-radius: 20px;
-        height: 26px;
-        align-items: center;
-        padding: 0 0 0 7px;
-        margin: 11px 0 0 0;
-        position: relative;
-        left: 15px;
-      }
-      .header-register:hover {
-        color: #00d7c6;
-      }
-      .header-login {
-          flex: 0.7;
-        display: flex;
-        width: 48px;
-        height: 48.8px;
-        font-size: 14px;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        line-height: 15px;
-        border: 1px solid#00d7c6;
-        border-radius: 20px;
-        height: 26px;
-        align-items: center;
-        padding: 0 0 0 7px;
-        margin: 11px 0 0 0;
-        position: relative;
-        left: 30px;
-      }
-      .header-login:hover {
-        color: #00d7c6;
-      }
-      .un-login-banner {
-        width: 100%;
-        height: 120px;
-        background: #00b38a;
-        display: flex;
-        justify-content: center;
-      }
-      .un-login-banner-inner {
-        display: flex;
-        width: 1200;
-        height: 100%;
-      }
-      .un-login-banner-inner .ad-logo {
-        width: 228px;
-        height: 120px;
-        background: #00b38a url(https://www.lgstatic.com/lg-www-fed/common/widgets/un_login_banner/img/logo_41a2761.png) no-repeat;
-        background-size: 228px 120px;
-      }
-      .un-login-banner-inner .text-wrapper {
-        flex: 1;
-      }
-      .un-login-banner-inner .text-wrapper .text-wrapper-img {
-        width: 334px;
-        height: 30px;
-        background: #00b38a url(https://www.lgstatic.com/lg-www-fed/common/widgets/un_login_banner/img/text_4434674.png) no-repeat;
-        background-size: 334px 30px;
-        margin: 40px 0 0 25px;
-      }
-      .un-login-banner-inner .text-wrapper .text-wrapper-content {
-        font-family: PingFangSC-Medium;
-        font-size: 14px;
-        color: #FFF;
-        margin: 5px 0 0 25px;
-      }
-      .register-login-form {
-        position: relative;
-        width: 485px;
-        height: 120;
-        margin: -95px 0 0 500px;
-      }
-      .register-login-form .input-wrapper-tel {
-        width: 212px;
-        height: 35px;
-        margin: 45px 0 0 0;
-      }
-      .register-login-form .input-wrapper-tel .area-code-content {
-        width: 66px;
-        height: 35px;
-        background: #fff;
-        font-size: 14px;
-        font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
-        text-align: center;
-        line-height: 35px;
-        color: #999;
-      }
-      .register-login-form .input-wrapper-tel .area-code-content-after {
-        width: 9px;
-        height: 5px;
-        position: absolute;
-        margin: -17.5px 0 0 66px;
-        background: #fff url(https://www.lgstatic.com/lg-www-fed/common/widgets/un_login_banner/img/trangle_1091ce9.png) no-repeat;
-        color: #999;
-        display: inline-block;
-      }
-      .register-login-form .input-wrapper-tel .tell-input {
-        display: inline-block;
-        width: 146px;
-        height: 35px;
-        background: #fff;
-        font-size: 14px;
-        font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
-        text-align: center;
-        line-height: 35px;
-        color: #ededed;
-        border: 0;
-        margin: -35px 0 0 66px;
-        outline: none;
-      }
-      .yzm-input {
-        display: inline-block;
-        width: 94px;
-        height: 35px;
-        background: #fff;
-        font-size: 14px;
-        font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
-        line-height: 35px;
-        color: #ededed;
-        border: 0;
-        margin: -35px 0 0 221px;
-        padding: 0 0 0 10px;
-        outline: none;
-      }
-      .yzm-btn {
-        display: inline-block;
-        width: 52px;
-        height: 35px;
-        background: #fff;
-        font-size: 14px;
-        font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
-        line-height: 35px;
-        margin: -35px 0 0 310px;
-        text-align: center;
-        line-height: 35px;
-        color: #00b38a;
-      }
-      .yzm-btn:before {
-        content: '';
-        position: absolute;
-        left: 308;
-        top: 13px;
-        width: 1px;
-        height: 12px;
-        background: #d5dadf;
-        overflow: hidden;
-      }
-      .register-login-btn {
-        width: 107px;
-        height: 34px;
-        border: 1px solid#fff;
-        color: #fff;
-        text-align: center;
-        line-height: 35px;
-        font-size: 14px;
-        margin: -35px 0 0 373px;
-      }
-      .register-login-btn:hover {
-        background: rgba(255,255,255,0.25)
-      }
-      .search-wrapper {
-        width: 100%;
-        height: 120px;
-        background: #f2f5f4;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .search_box {
-        display: flex;
-        width: 938px;
-        height: 46px;
-      }
-      .search_input {
-        width: 795px;
-        height: 48px;
-        margin: -1px 0 0 -1;
-        border: 0;
-        font-size: 16px;
-        padding: 0 0 0 16px;
-        border: 1px solid #e8e8e8;
-        outline: none;
-      }
-      .search_button {
-        width: 143px;
-        height: 47px;
-        background: #00b38a;
-        color: #fff;
-        font-size: 18px;
-        text-align: center;
-        line-height: 46px;
-        margin: -1px -1px 0 0;
-        cursor: pointer
-      }
-      .search_button:hover {
-        background: #00a57f;
-      }
-    </style>
+    <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div id="header">
@@ -452,6 +53,56 @@
       <div class="search_box">
         <input type="text" class="search_input" placeholder="搜索职位、公司或地点" />
         <div class="search_button">搜索</div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="container-body">
+        <div class="sidebar">
+          <div class="menu_box-tech">
+            <span class="tech">技术</span>
+            <a class="java" href="https://www.lagou.com/zhaopin/Java/">Java</a>
+            <a class="php" href="https://www.lagou.com/zhaopin/PHP/">PHP</a>
+            <a class="cpp" href="https://www.lagou.com/zhaopin/C++/">C++</a>
+            <a class="blockchain" href="https://www.lagou.com/zhaopin/qukuailian/">区块链</a>
+            <div class="arrow"></div>
+            <div class="menu_sub-tech">
+              <span class="back-end_develop">后端开发</span>
+              <a class="java" href="https://www.lagou.com/zhaopin/Java/">Java</a>
+              <a class="c++" href="https://www.lagou.com/zhaopin/C++/">C++</a>
+              <a class="php" href="https://www.lagou.com/zhaopin/PHP/">PHP</a>
+              <a class="data_mining" href="https://www.lagou.com/zhaopin/shujuwajue/">数据挖掘</a>
+              <a class="search_algorithm" href="https://www.lagou.com/zhaopin/sousuosuanfa/">搜索算法</a>
+              <a class="accurate_recommendation" href="https://www.lagou.com/zhaopin/jingzhuntuijian/">精准推荐</a>
+              <a class="C" href="https://www.lagou.com/zhaopin/C/">C</a>
+              <a class="C#" href="https://www.lagou.com/zhaopin/C#/">C#</a>
+              <a class="full_stack_developer" href="https://www.lagou.com/zhaopin/PHP/">全栈工程师</a>
+              <a class=".NET" href="https://www.lagou.com/zhaopin/.NET/">.NET</a>
+              <a class="Hadoop" href="https://www.lagou.com/zhaopin/Hadoop/">Hadoop</a>
+              <a class="Python" href="https://www.lagou.com/zhaopin/Python/">Python</a>
+              <a class="Delphi" href="https://www.lagou.com/zhaopin/Delphi/">Delphi</a>
+              <a class="VB" href="https://www.lagou.com/zhaopin/VB/">VB</a>
+              <a class="Perl" href="https://www.lagou.com/zhaopin/Perl/">Perl</a>
+              <a class="Ruby" href="https://www.lagou.com/zhaopin/Ruby/">Ruby</a>
+              <a class="Node.js" href="https://www.lagou.com/zhaopin/Node.js/">Node.js</a>
+              <a class="Go" href="https://www.lagou.com/zhaopin/Go/">Go</a>
+              <a class="ASP" href="https://www.lagou.com/zhaopin/ASP/">ASP</a>
+              <a class="Shell" href="https://www.lagou.com/zhaopin/Shell/">Shell</a>
+              <a class="blockchain" href="https://www.lagou.com/zhaopin/qukuailian/">区块链</a>
+              <a class="other_back-end_develop" href="https://www.lagou.com/zhaopin/houduankaifaqita/">后端开发其他</a>
+            </div>
+          </div>
+          <div class="menu_box-product">
+            <span class="product">产品</span>
+            <a class="product_director" href="https://www.lagou.com/zhaopin/chanpinzongjian/">产品总监</a>
+            <a class="product_manager" href="https://www.lagou.com/zhaopin/chanpinjingli1/">产品经理</a>
+          </div>
+          <div class="menu_box-design"></div>
+          <div class="menu_box-operation"></div>
+          <div class="menu_box-market"></div>
+          <div class="menu_box-sale"></div>
+          <div class="menu_box-function"></div>
+          <div class="menu_box-game"></div>
+        </div>
       </div>
     </div>
   </body>
