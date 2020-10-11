@@ -330,6 +330,41 @@
       .register-login-btn:hover {
         background: rgba(255,255,255,0.25)
       }
+      .search-wrapper {
+        width: 100%;
+        height: 120px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .search_box {
+        display: flex;
+        width: 938px;
+        height: 46px;
+      }
+      .search_input {
+        width: 795px;
+        height: 48px;
+        margin: -1px 0 0 -1;
+        border: 0;
+        font-size: 16px;
+        padding: 0 0 0 16px;
+        border: 1px solid #e8e8e8;
+      }
+      .search_button {
+        width: 143px;
+        height: 47px;
+        background: #00b38a;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 46px;
+        margin: -1px -1px 0 0;
+      }
+      .search_button:hover {
+        background: #00a57f;
+      }
     </style>
   </head>
   <body>
@@ -377,6 +412,12 @@
             <div class="register-login-btn">登录/注册</div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="search-wrapper">
+      <div class="search_box">
+        <input type="text" class="search_input" placeholder="搜索职位、公司或地点" />
+        <div class="search_button">搜索</div>
       </div>
     </div>
   </body>
