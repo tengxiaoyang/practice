@@ -459,12 +459,22 @@ body {
   text-decoration: none;
   margin: 0 0 0 15px;
 }
-.menu_box-tech:after {
+.menu_box-tech .arrow {
+  content: "";
   display: inline-block;
   position: absolute;
   width: 6px;
   height: 11px;
-  margin: 0 0 0 0;
-  border: 2px solid #000;
-  background: url(//www.lgstatic.com/lg-www-fed/index/modules/sidebar/img/arrow_92b8589.png) no-repeat;
+  margin: 20px 0 0 32px;
+  background-size: contain;
+  background: url(https://www.lgstatic.com/lg-www-fed/index/modules/sidebar/img/arrow_92b8589.png) no-repeat;
+}
+.menu_sub-tech {
+  display: none;
+}
+.menu_box-tech:hover .menu_sub-tech {
+  display: inline-block;
+}
+.menu_sub-tech span:a{
+  display: inline-block
 }
