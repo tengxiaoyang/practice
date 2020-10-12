@@ -408,6 +408,8 @@ body {
   display: flex;
   width: 1200px;
   height: 100%;
+  position: relative;
+  top: 30px;
 }
 .sidebar {
   width: 321px;
@@ -416,6 +418,9 @@ body {
 .menu_box-tech {
   width: 321px;
   height: 47px;
+}
+.menu_box-tech {
+  
 }
 .menu_box-tech .tech {
   display: inline-block;
@@ -465,7 +470,7 @@ body {
   position: absolute;
   width: 6px;
   height: 11px;
-  margin: 20px 0 0 32px;
+  margin: 20px 0 0 45px;
   background-size: contain;
   background: url(https://www.lgstatic.com/lg-www-fed/index/modules/sidebar/img/arrow_92b8589.png) no-repeat;
 }
@@ -474,7 +479,314 @@ body {
 }
 .menu_box-tech:hover .menu_sub-tech {
   display: inline-block;
+  width: 622px;
+  height: 1097px;
+  position: absolute;
+  background: #fff;
+  left: 315px;
+  border: 1px solid #000;
+  z-index: 10;
 }
-.menu_sub-tech span:a{
-  display: inline-block
+.menu_box-tech:hover .menu_sub-tech .back-end_develop {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin: 15px 0 0 20px;
+}
+.menu_box-tech:hover .menu_sub-tech a {
+  display: inline-block;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  margin: 12px 0 0 18px;
+}
+.menu_box-tech:hover .menu_sub-tech .java {
+  color: #00b38a;
+}
+.menu_box-tech:hover .menu_sub-tech .cpp {
+  color: #00b38a;
+}
+.menu_box-tech:hover .menu_sub-tech .cpp::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 59px;
+}
+.menu_box-tech:hover .menu_sub-tech .php::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 111px;
+}
+.menu_box-tech:hover .menu_sub-tech .data_mining::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 163px;
+}
+.menu_box-tech:hover .menu_sub-tech .search_algorithm::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 244px;
+}
+.menu_box-tech:hover .menu_sub-tech .accurate_recommendation::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 323px;
+}
+.menu_box-tech:hover .menu_sub-tech .C::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 403px;
+}
+.menu_box-tech:hover .menu_sub-tech .Csharp::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 438px;
+}
+.menu_box-tech:hover .menu_sub-tech .full_stack_developer::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 480px;
+}
+.menu_box-tech:hover .menu_sub-tech .dotnet::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 50px;
+  left: 573px;
+}
+.menu_box-tech:hover .menu_sub-tech .Python::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 84px;
+}
+.menu_box-tech:hover .menu_sub-tech .Delphi::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 156px;
+}
+.menu_box-tech:hover .menu_sub-tech .VB::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 224px;
+}
+.menu_box-tech:hover .menu_sub-tech .Perl::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 265px;
+}
+.menu_box-tech:hover .menu_sub-tech .Ruby::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 314px;
+}
+.menu_box-tech:hover .menu_sub-tech .Nodejs::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 372px;
+}
+.menu_box-tech:hover .menu_sub-tech .Go::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 447px;
+}
+.menu_box-tech:hover .menu_sub-tech .ASP::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 490px;
+}
+.menu_box-tech:hover .menu_sub-tech .Shell::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 82px;
+  left: 541px;
+}
+.menu_box-tech:hover .menu_sub-tech .blockchain::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  background: #D8D8D8;
+  top: 116px;
+  left: 72px;
+}
+.menu_box-product {
+  width: 321px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menu_box-product .product {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 8px 0 9px;
+  position: relative;
+}
+.menu_box-product .product_director {
+  display: inline;
+  padding: 5px 14px 0 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu_box-product .product_manager {
+  display: inline;
+  padding: 5px 14px 0 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu_box-product .arrow {
+  position: absolute;
+  width: 6px;
+  height: 11px;
+  top: 21px;
+  left: 303px;
+  background: url(https://www.lgstatic.com/lg-www-fed/index/modules/sidebar/img/arrow_92b8589.png);
+}
+.menu_box-design {
+  width: 321px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menu_box-design .product {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 8px 0 9px;
+  position: relative;
+}
+.menu_box-design .product_director {
+  display: inline;
+  padding: 5px 14px 0 12px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu_box-design .product_manager {
+  display: inline;
+  padding: 5px 10px 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu_box-design .arrow {
+  position: absolute;
+  width: 6px;
+  height: 11px;
+  top: 21px;
+  left: 303px;
+  background: url(https://www.lgstatic.com/lg-www-fed/index/modules/sidebar/img/arrow_92b8589.png);
+}
+.menu_box-operation, .menu_box-market, .menu_box-sale, .menu_box-function, .menu_box-game {
+  width: 321px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menu_box-operation .product, .menu_box-market .product, .menu_box-sale .product, .menu_box-function .product, .menu_box-game .product {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 8px 0 9px;
+  position: relative;
+}
+.menu_box-operation .product_director, .menu_box-market .product_director, .menu_box-sale .product_director, .menu_box-function .product_director, .menu_box-game .product_director {
+  display: inline;
+  padding: 5px 12px 0 12px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu_box-operation .product_manager, .menu_box-market .product_manager, .menu_box-sale .product_manager, .menu_box-function .product_manager, .menu_box-game .product_manager {
+  display: inline;
+  padding: 5px 14px 0 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #555555;
+}
+.menu_box-operation .arrow, .menu_box-market .arrow, .menu_box-sale .arrow, .menu_box-function .arrow, .menu_box-game .arrow {
+  position: absolute;
+  width: 6px;
+  height: 11px;
+  top: 21px;
+  left: 303px;
+  background: url(https://www.lgstatic.com/lg-www-fed/index/modules/sidebar/img/arrow_92b8589.png);
+}
+.home_banner {
+  width: 840px;
+  height: 346px;
+  position: relative;
+  top: 15px;
+  left: 50px;
+  background: url(https://www.lgstatic.com/i/image/M00/5C/79/Ciqc1F-BoEWAfwFdAAFeKcxwItY619.JPG);
 }
