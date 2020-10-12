@@ -419,8 +419,18 @@ body {
   width: 321px;
   height: 47px;
 }
-.menu_box-tech {
-  
+.menu_box-tech:hover {
+  box-shadow: 0 0 4px 0 rgba(214, 214, 214, 1);
+}
+.menu_box-tech:hover:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  width: 7px;
+  height: 47px;
+  background: #fff;
+  z-index: 100;
 }
 .menu_box-tech .tech {
   display: inline-block;
@@ -484,7 +494,7 @@ body {
   position: absolute;
   background: #fff;
   left: 315px;
-  border: 1px solid #000;
+  box-shadow: 0 0 4px 0 rgba(214, 214, 214, 1);
   z-index: 10;
 }
 .menu_box-tech:hover .menu_sub-tech .back-end_develop {
