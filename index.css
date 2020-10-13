@@ -2495,3 +2495,114 @@ body {
   background: #fff;
   z-index: 100;
 }
+#container-job {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+#container-job .inner {
+  width: 1216px;
+  height: 100%;
+  position: relative;
+  top: 30px;
+}
+#container-job .inner .tab {
+  width: 1216px;
+  height: 50px;
+  position: relative;
+}
+#container-job .inner .tab .hotTab {
+  display: inline-block;
+  padding: 14px 17px;
+  font-size: 16px;
+  position: relative;
+}
+#container-job .inner .tab .hotTab::before {
+  content: "";
+  background: #000;
+  display: block;
+  width: 89px;
+  height: 2px;
+  position: relative;
+  top: 34px;
+}
+#container-job .inner .tab .hotTab::after {
+  content: "";
+  background: #D8D8D8;
+  display: block;
+  width: 1200px;
+  height: 1px;
+  position: relative;
+  top: 13px;
+}
+#container-job .inner .tips::before {
+  content: "?";
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  margin-right: 10px;
+  display: inline-block;
+}
+#container-job .inner .tips {
+  width: 1216px;
+  height: 50px;
+  position: relative;
+  font-size: 14px;
+  color: #999;
+  top: 34px;
+  left: 19px;
+}
+#container-job .inner .list-wrapper {
+  width: 1216px;
+  height: 648px;
+  position: relative;
+  padding: 28px 0;
+}
+#container-job .inner .list-wrapper ul li {
+  list-style: none;
+  width: 330px;
+  height: 170px;
+  border: 1px solid #EAEEED;
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 8px 8px;
+}
+#container-job .inner .list-wrapper ul li .li_top {
+  width: 330px;
+  height: 25px;
+  border: 1px solid #EAEEED;
+}
+#container-job .inner .list-wrapper ul li .li_wordcut {
+  width: 330px;
+  height: 25px;
+  border: 1px solid #EAEEED;
+}
+#container-job .inner .list-wrapper ul li .li_labels {
+  width: 330px;
+  height: 43px;
+  border: 1px solid #EAEEED;
+}
+#container-job .inner .list-wrapper ul li .li_bottom {
+  width: 330px;
+  height: 70px;
+  border: 1px solid #EAEEED;
+}
+#container-companys {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+#container-companys .inner {
+  width: 1216px;
+  height: 100%;
+  position: relative;
+  top: 30px;
+}
