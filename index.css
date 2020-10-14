@@ -399,7 +399,6 @@ body {
 }
 #container {
   width: 100%;
-  height: 100%;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -407,7 +406,6 @@ body {
 .container-body {
   display: flex;
   width: 1200px;
-  height: 100%;
   position: relative;
   top: 30px;
 }
@@ -2497,16 +2495,14 @@ body {
 }
 #container-job {
   width: 100%;
-  height: 100%;
   background: #fff;
   display: flex;
   justify-content: center;
 }
 #container-job .inner {
   width: 1216px;
-  height: 100%;
   position: relative;
-  top: 30px;
+  top: 50px;
 }
 #container-job .inner .tab {
   width: 1216px;
@@ -2515,9 +2511,11 @@ body {
 }
 #container-job .inner .tab .hotTab {
   display: inline-block;
+  width: 90px;
   padding: 14px 17px;
   font-size: 16px;
   position: relative;
+  cursor: pointer;
 }
 #container-job .inner .tab .hotTab::before {
   content: "";
@@ -2550,13 +2548,24 @@ body {
   display: inline-block;
 }
 #container-job .inner .tips {
-  width: 1216px;
+  width: 267px;
   height: 50px;
   position: relative;
   font-size: 14px;
   color: #999;
   top: 34px;
   left: 19px;
+}
+#container-job .inner .tips_iknow {
+  display: inline-block;
+  width: 56px;
+  height: 50px;
+  position: relative;
+  font-size: 14px;
+  color: #00b38a;
+  top: 34px;
+  left: 50px;
+  cursor: pointer;
 }
 #container-job .inner .list-wrapper {
   width: 1216px;
@@ -2577,6 +2586,20 @@ body {
   width: 330px;
   height: 25px;
   border: 1px solid #EAEEED;
+}
+#container-job .inner .list-wrapper ul li .li_top .li_position {
+  color: #333;
+  max-width: 107px;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-decoration: none;
+}
+#container-job .inner .list-wrapper ul li .li_top .create-time {
+  color: #999;
+  max-width: 107px;
+  font-size: 14px;
 }
 #container-job .inner .list-wrapper ul li .li_wordcut {
   width: 330px;
