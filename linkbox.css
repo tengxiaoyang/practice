@@ -1,9 +1,23 @@
 .friendly_link {
   list-style: none;
-  width: 300px;
-  height: 100px;
-  border: 1px solid #EAEEED;
+  width: 64px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 47px;
+  margin-bottom: 21px;
+  margin-right: 20px;
+  cursor: pointer;
   display: inline-block;
-  padding: 20px 20px;
-  margin: 8px 8px;
+  padding: 14px 0;
+  border-bottom: 2px solid #333;
+  position: relative;
+}
+.friendly_link::after {
+  content: "";
+  border-bottom: 1px solid #E8E8E8;
+  display: block;
+  width: 1200px;
+  height: 1px;
+  position: relative;
+  top: 17px;
 }
