@@ -2681,6 +2681,9 @@ body {
   font-size: 14px;
   text-decoration: none;
 }
+#container-job .inner .list-wrapper ul li .li_bottom .bottom-right a:hover {
+  color: #00b38a;
+}
 #container-job .inner .list-wrapper ul li .li_bottom .bottom-right span {
   display: inline-block;
   width: 279px;
@@ -2850,6 +2853,9 @@ body {
   text-align: center;
   position: relative;
   bottom: 32px;
+}
+#container-job .inner .list-wrapper ul li .li_company_bottom a .item-bottom:hover {
+  color: #00b38a;
 }
 #container-job .inner .list-wrapper ul li .li_company_bottom .bottom-item_02, .bottom-item_03 {
   border-left: 1px dashed #EAEEED;
