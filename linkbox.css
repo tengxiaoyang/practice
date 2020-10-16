@@ -21,3 +21,20 @@
   position: relative;
   top: 17px;
 }
+.linkbox_link {
+  position: relative;
+  bottom: 13px;
+  right: 40px;
+}
+.friend-link {
+  width: 1120px;
+  height: 15px;
+  padding: 8px 18px 8px 0;
+  line-height: 15px;
+  text-decoration: none;
+  position: relative;
+  color: #555;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+}
