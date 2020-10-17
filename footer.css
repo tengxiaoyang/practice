@@ -1,13 +1,156 @@
 #footer {
   width: 100%;
+  height: 155px;
   background-color: #fff;
   border-top: 1px solid #ebebeb;
   position: relative;
   margin: 133px 0;
   display: flex;
+  justify-content: center;
 }
 #footer .inner_wrapper {
   width: 1200px;
   margin: 49px 0 66px 0;
+}
+.footer_module_column {
+  width: 313px;
+  height: 136.8px;
+  border-right: 1px solid #E8E8E8;
+}
+.footer_app {
+  position: relative;
+  padding: 10px 0 8px 0;
+  width: 180px;
+  border: 1px solid #00B38A;
+  color: #00B38A;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.footer_mina {
+  position: relative;
+  padding: 10px 0 8px 0;
+  width: 180px;
+  border: 1px solid #00B38A;
+  color: #00B38A;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+  cursor: pointer; 
+}
+.footer_module_item {
+  display: flex;
+  font-size: 14px;
+}
+.footer_wechat_icon {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -114px -184px no-repeat;
+  padding: 0px 0 -3px 0;
+  position: relative;
+  top: 2px;
+}
+.footer_webo_icon {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -214px -20px no-repeat;
+  padding: 0px 0 -3px 0;
+  position: relative;
+  top: 2px;
+  margin: 0 0 0 29px;
+}
+.footer_module_right {
+  width: 757px;
+  height: 136.8px;
+  display: flex;
+  position: relative;
+  left: 466px;
+  bottom: 156px;
+}
+.footer_module_business {
+  flex: 1;
+}
+.footer_module_title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555;
+}
+#footer .inner_wrapper a, span {
+  color: #555;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  line-height: 32px;
+}
+#copyright {
+  width: 100%;
+  background-color: #FAFAFA;
+  position: relative;
+  display: flex;
   justify-content: center;
+}
+.copyright_main {
+  width: 1200px;
+  height: 100px;
+}
+.copyright_main_left {
+  display: flex;
+  align-items: center;
+}
+.footer_lagou_gongan {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -150px -184px no-repeat;
+  margin: 0 5px 0 20px;
+}
+.footer_lagou_jubao {
+  border: 1px solid #D5DADF;
+  display: flex;
+  align-items: center;
+  margin: 29px 22px;
+  padding: 0px 13px;
+  width: 157.16px;
+  height: 58.8px;
+}
+.lagou_jubao {
+  display: inline-block;
+  width: 20px;
+  height: 24px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/sprite_9dd5c92.png) -132px -20px no-repeat;
+  margin: 0 10px 0 10px;
+}
+.lagou_jubao_icon {
+  display: block;
+}
+.footer_lagou_jubao span {
+    display: block;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+}
+.copyright_main_right {
+  position: relative;
+  bottom: 74px;
+  left: 999px;
+  display: inline-block;
+  width: 198px;
+  height: 19px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png) 0 0 no-repeat;
+}
+#backtop {
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png) 0 0 no-repeat;
+  width: 28px;
+  height: 46px;
+  position: fixed;
+  left: 92%;
+  bottom: 88px;
+  cursor: pointer;
+  z-index: 100;
+}
+#backtop:hover {
+  background-position: right top;
 }
