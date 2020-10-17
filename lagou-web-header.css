@@ -187,3 +187,183 @@ body {
 .lg_tbar_r .lg_os:hover {
   color: #fff;
 }
+.un-login-banner {
+  width: 100%;
+  height: 120px;
+  background: #00b38a;
+  display: flex;
+  justify-content: center;
+}
+.un-login-banner-inner {
+  display: flex;
+  width: 1200;
+  height: 100%;
+}
+.un-login-banner-inner .ad-logo {
+  width: 228px;
+  height: 120px;
+  background: #00b38a url(https://www.lgstatic.com/lg-www-fed/common/widgets/un_login_banner/img/logo_41a2761.png) no-repeat;
+  background-size: 228px 120px;
+}
+.un-login-banner-inner .text-wrapper {
+  flex: 1;
+}
+.un-login-banner-inner .text-wrapper .text-wrapper-img {
+  width: 334px;
+  height: 30px;
+  background: #00b38a url(https://www.lgstatic.com/lg-www-fed/common/widgets/un_login_banner/img/text_4434674.png) no-repeat;
+  background-size: 334px 30px;
+  margin: 40px 0 0 25px;
+}
+.un-login-banner-inner .text-wrapper .text-wrapper-content {
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #FFF;
+  margin: 5px 0 0 25px;
+}
+.register-login-form {
+  position: relative;
+  width: 485px;
+  height: 120;
+  margin: -95px 0 0 500px;
+}
+.register-login-form .input-wrapper-tel {
+  width: 212px;
+  height: 35px;
+  margin: 45px 0 0 0;
+}
+.register-login-form .input-wrapper-tel .area-code-content {
+  width: 66px;
+  height: 35px;
+  background: #fff;
+  font-size: 14px;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  text-align: center;
+  line-height: 35px;
+  color: #999;
+}
+.register-login-form .input-wrapper-tel .area-code-content-after {
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  margin: -17.5px 0 0 66px;
+  background: #fff url(https://www.lgstatic.com/lg-www-fed/common/widgets/un_login_banner/img/trangle_1091ce9.png) no-repeat;
+  color: #999;
+  display: inline-block;
+}
+.register-login-form .input-wrapper-tel .tell-input {
+  display: inline-block;
+  width: 146px;
+  height: 35px;
+  background: #fff;
+  font-size: 14px;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  text-align: center;
+  line-height: 35px;
+  color: #000;
+  border: 0;
+  margin: -35px 0 0 66px;
+  outline: none;
+}
+.yzm-input {
+  display: inline-block;
+  width: 94px;
+  height: 35px;
+  background: #fff;
+  font-size: 14px;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  line-height: 35px;
+  color: #000;
+  border: 0;
+  margin: -35px 0 0 221px;
+  padding: 0 0 0 10px;
+  outline: none;
+}
+.yzm-btn {
+  display: inline-block;
+  width: 52px;
+  height: 35px;
+  background: #fff;
+  font-size: 14px;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  line-height: 35px;
+  margin: -35px 0 0 310px;
+  text-align: center;
+  line-height: 35px;
+  color: #00b38a;
+}
+.yzm-btn:before {
+  content: '';
+  position: absolute;
+  left: 308;
+  top: 13px;
+  width: 1px;
+  height: 12px;
+  background: #d5dadf;
+  overflow: hidden;
+}
+.register-login-btn {
+  width: 107px;
+  height: 34px;
+  border: 1px solid#fff;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  margin: -35px 0 0 373px;
+  cursor: pointer
+}
+.register-login-btn:hover {
+  background: rgba(255,255,255,0.25)
+}
+.search-wrapper {
+  width: 100%;
+  height: 120px;
+  background: #f2f5f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_box {
+  display: flex;
+  width: 938px;
+  height: 46px;
+  position: relative;
+  right: 136px;
+}
+.search_input {
+  width: 795px;
+  height: 48px;
+  margin: -1px 0 0 -1;
+  border: 0;
+  font-size: 16px;
+  padding: 0 0 0 16px;
+  border: 1px solid #e8e8e8;
+  outline: none;
+}
+.search_button {
+  width: 143px;
+  height: 47px;
+  background: #00b38a;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 46px;
+  margin: -1px -1px 0 0;
+  cursor: pointer
+}
+.search_button:hover {
+  background: #00a57f;
+}
+#container {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.container-body {
+  display: flex;
+  width: 1200px;
+  position: relative;
+  top: 30px;
+}
