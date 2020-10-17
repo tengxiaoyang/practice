@@ -1,0 +1,40 @@
+.friendly_link {
+  list-style: none;
+  width: 64px;
+  font-size: 16px;
+  color: #333;
+  margin-top: 47px;
+  margin-bottom: 21px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 14px 0;
+  border-bottom: 2px solid #333;
+  position: relative;
+}
+.friendly_link::after {
+  content: "";
+  border-bottom: 1px solid #E8E8E8;
+  display: block;
+  width: 1200px;
+  height: 1px;
+  position: relative;
+  top: 17px;
+}
+.linkbox_link {
+  position: relative;
+  bottom: 13px;
+  right: 40px;
+}
+.friend-link {
+  width: 1120px;
+  height: 15px;
+  padding: 8px 16px 8px 0;
+  line-height: 15px;
+  text-decoration: none;
+  position: relative;
+  color: #555;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+}

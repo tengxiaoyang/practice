@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+#lg_header {
+  background: #32373e;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  display: flex;
+  justify-content: center;
+}
+#lg_header .header-inner {
+  width: 1200px;
+  height: 40px;
+  background: #32373e;
+  font-size: 14px;
+}
+.lg_tbar_l {
+  float: left;
+  height: 40px;
+}
+.header-logo {
+  display: inline-block;
+  width: 43px;
+  height: 40px;
+  background-image: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/sprite_361857f.png);
+  background-position: -10px -1px;
+  background-size: 64px 128px;
+}
+.lg_tbar_tabs {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  position: relative;
+  right: 14px;
+}
+.suggestCity {
+  float: left;
+  margin-right: 34px;
+  cursor: pointer;
+}
+.suggestCity .station {
+  font-size: 14px;
+  color: #0dca9f;
+  line-height: 40px;
+  padding-right: 12px;
+  margin: 0;
+}
+.suggestCity .switch_cities {
+  font-size: 12px;
+  color: #afb5c0;
+  line-height: 40px;
+}
+.lg_tbar_tabs li {
+  display: inline-block;
+}
+.lg_tbar_tabs li a {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 21px;
+  color: #AFB5C0;
+  text-decoration: none;
+}
+.lg_tbar_r {
+  float: right;
+  height: 40px;
+  position: relative;
+  bottom: 41px;
+  left: 14px;
+}
+.lg_tbar_r .passport {
+  float: left;
+  margin-right: 52px;
+  height: 40px;
+  line-height: 40px;
+  color: #AFB5C0;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  bottom: 14px;
+}
+.lg_tbar_r .passport .upload-resume {
+  padding: 0 12px;
+  display: inline-block;
+}
+.lg_tbar_r .passport .quick-entrance {
+  padding: 0 12px;
+  margin-right: 54px;
+  display: inline-block;
+}
+.lg_tbar_r .passport .login {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+.lg_tbar_r .passport .login:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  width: 18px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_login@2x_a6d7b9d.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .passport .bar {
+  padding: 0 7px;
+  color: #5e6166;
+  line-height: 40px;
+  display: inline-block;
+}
+.lg_tbar_r .passport .register {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+.lg_tbar_r .lg_app {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  color: #00C295;
+  display: inline-block;
+  cursor: pointer;
+}
+.lg_tbar_r .passport .login:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  width: 18px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_login@2x_a6d7b9d.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.lg_tbar_r .lg_os {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  color: #AFB5C0;
+  display: inline-block;
+  cursor: pointer;
+}
+.switch_cities:hover {
+  color: #fff;
+}
+.lg_tbar_tabs li a:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .upload-resume:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .quick-entrance:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .login:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .login:hover:before {
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_login_hover@2x_c22b783.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .passport .register:hover {
+  color: #fff;
+}
+.lg_tbar_r .lg_app:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -20px;
+  width: 12px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_phone@2x_73d8859.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .lg_app:hover {
+  color: #12DDAE;
+}
+.lg_tbar_r .lg_app:hover:before {
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_phone_hover@2x_3ac0592.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .lg_os:hover {
+  color: #fff;
+}
