@@ -1,237 +1,192 @@
 body {
   margin: 0;
   }
-#header {
-  width: 100%;
-  height: 49px;
+#lg_header {
   background: #32373e;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
   display: flex;
   justify-content: center;
-  }
-.header-main {
-  width: 1184px;
-  height: 49px;
-  display: flex
-  }
- .logo {
-  flex: 1.8;
-  width: 105px;
-  height: 30px;
+}
+#lg_header .header-inner {
+  width: 1200px;
+  height: 40px;
+  background: #32373e;
+  font-size: 14px;
+}
+.lg_tbar_l {
+  float: left;
+  height: 40px;
+}
+.header-logo {
+  display: inline-block;
+  width: 43px;
+  height: 40px;
   background-image: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/sprite_361857f.png);
-  background-repeat: no-repeat;
   background-position: -10px -1px;
   background-size: 64px 128px;
-  position: relative;
-  top: 5px; 
-  }
-.nav-city {
-  flex: 2;
-  display: flex;
-  width: 110px;
-  height: 36px;
-  position: relative;
 }
-.icon-poi {
-  flex: 0.4;
-  width: 15px;
-  height: 28px;
-  background: url(https://static.zhipin.com/zhipin-geek/v313/web/geek/images/icon-poi.png) 0 -165px;
-  margin: 16px 3px 0 12px;
+.lg_tbar_tabs {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  position: relative;
+  right: 14px;
 }
-.nav-city-selected {
-  flex: 1;               
-  width: 28px;
-  height: 14px;
+.suggestCity {
+  float: left;
+  margin-right: 34px;
+  cursor: pointer;
+}
+.suggestCity .station {
   font-size: 14px;
-  color: #00b38a;
-  position: relative;
-  top:13px;
+  color: #0dca9f;
+  line-height: 40px;
+  padding-right: 68px;
+  margin: 0;
 }
-.switchover-city {
-  flex: 2;               
-  width: 60px;
-  height: 14px;
+.suggestCity .switch_cities {
   font-size: 12px;
-  color: #ffffff;
+  color: #afb5c0;
+  line-height: 40px;
   position: relative;
-  top:15px;
+  bottom: 40px;
+  left: 55px;
 }
-.nav {
-  flex: 4;
-  display: flex;
-  width: 340px;
-  height: 48.8px;
+.lg_tbar_tabs li {
+  display: inline-block;
+}
+.lg_tbar_tabs li a {
   position: relative;
-  font-size: 14px;
-}
-.header-home {
-  flex: 1;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #00b38a;
-  font-size: 14px;
   text-align: center;
-  line-height: 48.8px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 17px;
+  color: #AFB5C0;
+  text-decoration: none;
+}
+.lg_tbar_r {
+  float: right;
+  height: 40px;
   position: relative;
+  left: 14px;
 }
-.header-job {
-  flex: 1;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
-}
-.header-job:hover {
-  color: #00b38a;
-}
-.nav-school-new {
-  flex: 1;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
-}
-.nav-school-new:hover {
-  color: #00b38a;
-}
-.header_brand {
-  flex: 1;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
-}
-.header_brand:hover {
-  color: #00b38a;
-}
-.header-app {
-  flex: 1;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
-}
-.header-app:hover {
-  color: #00b38a;
-}
-.header-article {
-  flex: 1;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
-}
-.header-article:hover {
-  color: #00b38a;
-}
-.btns {
-  flex: 10;
-  display: flex;
-  width: 340px;
-  height: 48.8px;
+.lg_tbar_r .passport {
+  float: left;
+  margin-right: 52px;
+  height: 40px;
+  line-height: 40px;
+  color: #AFB5C0;
+  cursor: pointer;
+  list-style: none;
   position: relative;
-  font-size: 14px;
+  bottom: 14px;
 }
-.nlp_resume_upload {
-  flex: 1.5;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
+.lg_tbar_r .passport .upload-resume {
+  padding: 0 12px;
+  display: inline-block;
+}
+.lg_tbar_r .passport .quick-entrance {
+  padding: 0 12px;
+  margin-right: 54px;
+  display: inline-block;
+}
+.lg_tbar_r .passport .login {
   position: relative;
-  margin: 0 0 0 300px;
-}
-.nlp_resume_upload:hover {
-  color: #00b38a;
-}
-.header-geek {
-  flex: 2;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
   text-align: center;
-  line-height: 48.8px;
+  display: inline-block;
 }
-.header-geek:hover {
-  color: #00b38a;
+.lg_tbar_r .passport .login:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  width: 18px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_login@2x_a6d7b9d.png) no-repeat;
+  background-size: 100% 100%;
 }
-.header-boss {
-  flex: 1.5;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 48.8px;
+.lg_tbar_r .passport .bar {
+  padding: 0 7px;
+  color: #5e6166;
+  line-height: 40px;
+  display: inline-block;
 }
-.header-boss:hover {
-  color: #00b38a;
-}
-.header-register {
-  flex: 0.7;
-  display: flex;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  line-height: 15px;
-  border: 1px solid#00b38a;
-  border-radius: 20px;
-  height: 26px;
-  align-items: center;
-  padding: 0 0 0 7px;
-  margin: 11px 0 0 0;
+.lg_tbar_r .passport .register {
   position: relative;
-  left: 15px;
-}
-.header-register:hover {
-  color: #00b38a
-}
-.header-login {
-    flex: 0.7;
-  display: flex;
-  width: 48px;
-  height: 48.8px;
-  font-size: 14px;
-  color: #fff;
-  font-size: 14px;
   text-align: center;
-  line-height: 15px;
-  border: 1px solid#00b38a;
-  border-radius: 20px;
-  height: 26px;
-  align-items: center;
-  padding: 0 0 0 7px;
-  margin: 11px 0 0 0;
-  position: relative;
-  left: 30px;
+  display: inline-block;
 }
-.header-login:hover {
-  color: #00b38a;
+.lg_tbar_r .lg_app {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 20px;
+  color: #00C295;
+  display: inline-block;
+  cursor: pointer;
+}
+.lg_tbar_r .passport .login:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  width: 18px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_login@2x_a6d7b9d.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.lg_tbar_r .lg_os {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  color: #AFB5C0;
+  display: inline-block;
+  cursor: pointer;
+}
+.switch_cities:hover {
+  color: #fff;
+}
+.lg_tbar_tabs li a:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .upload-resume:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .quick-entrance:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .login:hover {
+  color: #fff;
+}
+.lg_tbar_r .passport .login:hover:before {
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_login_hover@2x_c22b783.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .passport .register:hover {
+  color: #fff;
+}
+.lg_tbar_r .lg_app:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -20px;
+  width: 12px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_phone@2x_73d8859.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .lg_app:hover {
+  color: #12DDAE;
+}
+.lg_tbar_r .lg_app:hover:before {
+  background: url(https://www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/icon_phone_hover@2x_3ac0592.png) no-repeat;
+  background-size: 100% 100%;
+}
+.lg_tbar_r .lg_os:hover {
+  color: #fff;
 }
 .un-login-banner {
   width: 100%;
