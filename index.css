@@ -2619,12 +2619,13 @@ body {
   cursor: pointer;
 }
 #container-job .inner .list-wrapper ul li .li_top .salary {
-  display: inline-block;
+  display: block;
   position: relative;
   font-size: 16px;
   color: #fa6041;
   bottom: 2px;
   left: 14px;
+  float: right;
 }
 #container-job .inner .list-wrapper ul li .li_wordcut {
   width: 330px;
@@ -2657,10 +2658,73 @@ body {
   position: relative;
   top: 15px;
 }
-#container-job .inner .list-wrapper ul li .li_bottom .logo {
+#container-job .inner .list-wrapper ul .list_li_01 .li_bottom .logo {
   width: 40px;
   height: 40px;
   background: url(https://www.lgstatic.com/thumbnail_100x100/i/image/M00/5A/ED/Cgp3O1ffoHyAUyBeAAAR8ki8dmw574.jpg);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_02 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image/M00/8C/8B/Cgp3O1iALa6AIvmdAAAQ7edBsJk709.png);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_03 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image3/M01/57/AC/Cgq2xl30jkeABZcgAAA1OTWuomE574.png);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_04 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image3/M01/65/BF/Cgq2xl5DbjiAE_F-AAAmm3pIvTM888.png);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_05 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image2/M01/97/42/CgoB5l2e5ZaAAeIOAABpp2i2b2M536.png);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_06 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image2/M01/AA/ED/CgotOVvr-3aAF9TPAADgfkkKH58292.jpg);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_07 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image/M00/05/DD/CgqKkVbL0jyAbs3lAAArZ8qfdMs020.png);
+  background-size: 40px 40px;
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+#container-job .inner .list-wrapper ul .list_li_08 .li_bottom .logo {
+  width: 40px;
+  height: 40px;
+  background: url(https://www.lgstatic.com/thumbnail_100x100/i/image3/M01/76/C2/CgpOIF5w8-GAAGHgAAA8lQbI5EE743.jpg);
   background-size: 40px 40px;
   display: inline-block;
   position: relative;
@@ -2793,8 +2857,64 @@ body {
   left: 50px;
   cursor: pointer;
 }
-#container-job .inner .list-wrapper ul li .li_company-logo {
+#container-job .inner .list-wrapper ul .list_li_01 .li_company-logo {
   background: url(https://www.lgstatic.com/thumbnail_160x160/i/image/M00/14/45/CgqKkVbpCXaALwOxAAAKxYyWtuM099.jpg);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_02 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/i/image2/M01/B2/7D/CgotOVwA2NuAdJ59AAFRyCpsFik265.png);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_03 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/i/image3/M01/17/BF/Ciqah16oBPyASFYSAAAJsPsgWJ8549.png);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_04 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/i/image/M00/3F/FE/Ciqc1F8yApuACavkAABpNRApTNo816.png);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_05 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/image1/M00/00/2E/Cgo8PFTUXHqAagkiAACi6zPHxFo410.jpg);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_06 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/i/image/M00/23/6D/CgqKkVcXW4uAFfw9AAASlzrqxeY848.png);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_07 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/i/image2/M01/B6/3A/CgotOVwMnFCAcyMRAAAgBOEnFxs853.png);
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  position: relative;
+  left: 76px;
+}
+#container-job .inner .list-wrapper ul .list_li_08 .li_company-logo {
+  background: url(https://www.lgstatic.com/thumbnail_160x160/image1/M00/00/4E/Cgo8PFTUXP-AKdaOAABiDXzVecQ132.png);
   width: 80px;
   height: 80px;
   background-size: 80px 80px;
@@ -2824,6 +2944,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   font-size: 14px;
+  text-align: center;
 }
 #container-job .inner .list-wrapper ul li .li_company_bottom {
   width: 226px;
