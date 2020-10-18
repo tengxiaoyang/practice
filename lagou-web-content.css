@@ -246,3 +246,117 @@
   position: relative;
   display: block;
 }
+.position_list {
+  width: 960px;
+  height: 2269px;
+}
+.item_con_list {
+  width: 960px;
+  height: 2112px;
+  list-style: none;
+}
+.item_con_list li {
+  width: 1000px;
+  height: 124px;
+  position: relative;
+  right: 40px;
+  border: 1px solid #ededed;
+  margin-top: 18px;
+}
+.item_con_list li .position .p_top a {
+  font-size: 16px;
+  color: #00b38a;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.item_con_list li .position .p_top span {
+  font-size: 14px;
+  color: #999;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.item_con_list li .position .p_bot .money {
+  font-size: 16px;
+  color: #fd5f39;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.item_con_list li .position .p_bot .experience_and_educational {
+  font-size: 14px;
+  color: #555;
+  position: relative;
+  top: 15px;
+  left: 29px;
+}
+.business_license {
+  display: none;
+}
+.company .company_name .name {
+  color: #00b38a;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  bottom: 33px;
+  left: 528px;
+}
+.company .company_name .company_mark {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  background: url(https://www.lgstatic.com/lg-www-fed/search-result/modules/positions/img/approve_aae725a.png) no-repeat 0 0;
+  cursor: pointer;
+  bottom: 29px;
+  left: 528px;
+}
+.company .industry {
+  font-size: 14px;
+  color: #555;
+  position: relative;
+  bottom: 30px;
+  left: 528px;
+}
+.com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/D3/C1/CgoB5lxGkWOAX8BcAAFAxNnySXk934.PNG);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.list_item_bot {
+  width: 970px;
+  height: 40px;
+  padding: 0 15px;
+  background-color: #fafafa;
+  position: relative;
+  bottom: 76px;
+}
+.li_b_r {
+  position: relative;
+  bottom: 17px;
+  left: 506px;
+  z-index: 1;
+  font-size: 14px;
+  color: #555;
+}
+.li_b_l {
+  position: relative;
+  top: 6px;
+}
+.li_b_l span {
+  display: inline-block;
+  height: 20px;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+}
