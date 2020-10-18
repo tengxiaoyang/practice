@@ -54,8 +54,10 @@
   color: #555555;
   padding: 10px 10px;
   text-decoration: none;
-  position: relative;
-  left: 105px;
+  position: absolute;
+  left: 875px;
+  top: 0;
+  cursor: pointer;
 }
 .has-more .btn-more .triangle {
   position: absolute;
@@ -515,4 +517,40 @@
   margin: 0 5px;
   font-size: 14px;
   text-decoration: none;
+}
+.has-more .hot-city-name:hover {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  text-decoration: none;
+  background-color: #00b38a;
+  color: #fff;
+  padding: 10px 8px;
+}
+.multi-chosen .option:hover {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  padding: 10px 8px;
+  text-decoration: none;
+  background-color: #00b38a;
+  color: #fff;
+}
+}
+.has-more .btn-more:hover .triangle {
+  position: absolute;
+  border-bottom: 6px solid #00b38a;
+  border-top: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  top: 12px;
+  left: 44px;
+}
+.has-more-open {
+  display: none;
+}
+.has-more .btn-more:hover .has-more-open {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -76px;
+  width: 997px;
+  height: 100px;
+  background: #fff;
 }
