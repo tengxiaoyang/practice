@@ -238,9 +238,8 @@ body {
   background: #fff;
   font-size: 14px;
   font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
-  text-align: 14;
   padding: 0 0px 0 9px;
-  line-height: 35px;
+  line-height: 36px;
   color: #999;
 }
 .register-login-form .input-wrapper-tel .area-code-content-after {
@@ -339,6 +338,7 @@ body {
   text-align: center;
   line-height: 30px;
   font-size: 16px;
+  cursor: pointer;
 }
 .search_box {
   display: flex;
@@ -402,16 +402,8 @@ body {
   font-size: 14px;
   display: inline-block;
   padding: 7px;
+  cursor: pointer;
 }
-#container {
-  width: 100%;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-}
-.container-body {
-  display: flex;
-  width: 1200px;
-  position: relative;
-  top: 30px;
+.r_search_tit ul li:hover {
+  color: #00b38a;
 }

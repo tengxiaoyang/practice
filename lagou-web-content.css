@@ -1,0 +1,193 @@
+#container {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.container-body {
+  display: flex;
+  width: 1200px;
+  position: relative;
+  top: 30px;
+}
+.container-body .content_left {
+  flex: 1;
+}
+.container-body .content_right {
+  width: 210px;
+  height: 825px;
+}
+.details {
+  position: relative;
+  background: #fafafa;
+  list-style: none;
+  width: 999px;
+  height: 233px;
+  border: 1px solid #ebebeb;
+}
+.has-more {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.has-more .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
+.has-more .current_city {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  padding: 3px 8px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #ebebeb;
+}
+.has-more .hot-city-name {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 8px;
+  text-decoration: none;
+}
+.has-more .btn-more {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 10px;
+  text-decoration: none;
+  position: relative;
+  left: 105px;
+}
+.has-more .btn-more .triangle {
+  position: absolute;
+  border-top: 6px solid #00b38a;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  top: 18px;
+  left: 44px;
+}
+.multi-chosen {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.multi-chosen .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
+.multi-chosen .option {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 8px;
+  text-decoration: none;
+}
+.multi-chosen .unlimited_option {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  padding: 3px 8px;
+  text-decoration: none;
+  background-color: #00b38a;
+  color: #fff;
+  border: 1px solid #ebebeb;
+}
+.has-more-area {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.has-more-area .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
+.has-more-area .area {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 8px;
+  text-decoration: none;
+}
+.has-more-area .unlimited_area {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  padding: 3px 8px;
+  text-decoration: none;
+  background-color: #00b38a;
+  color: #fff;
+  border: 1px solid #ebebeb;
+}
+.has-more-area .btn-more {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 10px;
+  text-decoration: none;
+  position: relative;
+  left: 156px;
+}
+.has-more-area .btn-more .triangle {
+  position: absolute;
+  border-top: 6px solid #00b38a;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  top: 18px;
+  left: 44px;
+}
+.btn-collapse-wrapper {
+  position: relative;
+  margin-top: -1px;
+  height: 17px;
+  width: 1000px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.btn-collapse-wrapper .arrow {
+  display: block;
+  position: relative;
+  bottom: 1px;
+  height: 15px;
+  width: 36px;
+  border: 1px solid #ededed;
+  border-top-color: #fafafa;
+  background: #fafafa url(https://www.lgstatic.com/lg-www-fed/search-result/modules/filter/img/arrow_up_b7a7618.png) center no-repeat;
+}
+.content_left .order {
+  position: relative;
+  margin-top: 28px;
+  background-color: #fafafa;
+  border: 1px solid #ededed;
+  width: 960px;
+  height: 45px;
+  list-style: none;
+}
+.content_left .order .wrapper {
+  width: 960px;
+  height: 45px;
+  color: #555;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.content_left .order .wrapper .item-order {
+  position: relative;
+  right: 40px;
+}
+.content_left .order .wrapper .item-order .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
+.content_left .order .wrapper .item-order .default {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  padding: 3px 8px;
+  text-decoration: none;
+  background-color: #00b38a;
+  color: #fff;
+  border: 1px solid #ebebeb;
+}
+.content_left .order .wrapper .item-order .newest {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 8px;
+  text-decoration: none;
+}
