@@ -191,3 +191,25 @@
   padding: 10px 8px;
   text-decoration: none;
 }
+.item-salary .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
+.item-salary select {
+  border: 0;
+}
+.item-type select {
+  border: 0;
+}
+.item-type {
+  position: relative;
+  left: 29px;
+}
+.item-type .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
