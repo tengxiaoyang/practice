@@ -89,7 +89,21 @@
   font-weight: 600;
   color: #555;
 }
-#footer .inner_wrapper a, span {
+#footer .inner_wrapper a {
+  color: #555;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  line-height: 32px;
+}
+.copyright_main_left span {
+  color: #555;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  line-height: 32px;
+}
+.footer_module_business span {
   color: #555;
   font-size: 14px;
   text-decoration: none;

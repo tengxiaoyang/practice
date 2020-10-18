@@ -248,7 +248,7 @@
 }
 .position_list {
   width: 960px;
-  height: 2269px;
+  height: 2174px;
 }
 .item_con_list {
   width: 960px;
@@ -269,6 +269,7 @@
   position: relative;
   top: 15px;
   left: 15px;
+  text-decoration: none;
 }
 .item_con_list li .position .p_top span {
   font-size: 14px;
@@ -378,14 +379,13 @@
 }
 .history {
   width: 182px;
-  height: 475px;
   margin-bottom: 15px;
   padding-bottom: 5px;
   background-color: #fafafa;
 }
 .history .title {
   font-size: 18px;
-  margin: 0 0 2px 15px;
+  margin: 0 0 7px 15px;
   padding-top: 12px;
 }
 .history .history_position_list {
@@ -424,4 +424,95 @@
   color: #999;
   height: 24px;
   line-height: 24px;
+}
+.ad_01 {
+  display: block;
+  width: 182px;
+  height: 106px;
+  background: url(https://www.lgstatic.com/i/image/M00/5C/81/CgqCHl-Bl0GAKhW9AAAmf_QnBsE690.JPG) 0 0 no-repeat;
+  background-size: 182px 106px;
+  BOX-SHADOW: 0 0 black;
+}
+.ad_02 {
+  display: block;
+  width: 182px;
+  height: 106px;
+  background: url(https://www.lgstatic.com/i/image/M00/5C/FD/Ciqc1F-DyE2ATId3AABdNgonxSM567.PNG) 0 0 no-repeat;
+  background-size: 182px 106px;
+  BOX-SHADOW: 0 0 black;
+  position: relative;
+  top: 12px;
+}
+.recommend-comp-city {
+  display: block;
+  width: 960px;
+  height: 93px;
+}
+.r_company_tit {
+  display: block;
+  width: 960px;
+  height: 24px;
+  font-size: 16px;
+  color: #333;
+}
+.r_search_item {
+  display: inline-block;
+  color: #00b38a;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0 30px 0 0;
+}
+.item_con_pager {
+  margin-top: 35px;
+  text-align: center;
+}
+.previous_page {
+  cursor: pointer;
+  color: silver;
+  display: inline-block;
+  border: 1px solid #ededed;
+  height: 21px;
+  line-height: 21px;
+  padding: 3px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.page_down {
+  cursor: pointer;
+  color: #555;
+  display: inline-block;
+  border: 1px solid #ededed;
+  height: 21px;
+  line-height: 21px;
+  padding: 3px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.pager_is_current {
+  background-color: #00b38a;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #00b38a;
+  height: 21px;
+  line-height: 21px;
+  padding: 3px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.item_con_pager .num {
+  cursor: pointer;
+  color: #555;
+  display: inline-block;
+  border: 1px solid #ededed;
+  height: 21px;
+  line-height: 21px;
+  padding: 3px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  text-decoration: none;
 }
