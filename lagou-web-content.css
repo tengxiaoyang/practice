@@ -213,3 +213,36 @@
   color: #555555;
   padding: 10px 10px;
 }
+.item-page {
+  width: 120px;
+  height: 43px;
+  border-left: 1px solid #ebebeb;
+  position: relative;
+  left: 370px;
+  display: flex;
+  align-items: center;
+}
+.item-page .page-number {
+  width: 55px;
+  height: 22px;
+  position: relative;
+  top: 2px;
+  left: 6px;
+}
+.item-page .page-number .curNum {
+  color: #00b38a;
+}
+.item-page .prev {
+  width: 32px;
+  height: 23px;
+  background: url(https://www.lgstatic.com/lg-www-fed/search-result/modules/common/img/icons_6084500.png) -148px -4px no-repeat;
+  position: relative;
+  display: block;
+}
+.item-page .next {
+  width: 32px;
+  height: 23px;
+  background: url(https://www.lgstatic.com/lg-www-fed/search-result/modules/common/img/icons_6084500.png) -168px -4px no-repeat;
+  position: relative;
+  display: block;
+}
