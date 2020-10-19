@@ -748,3 +748,6 @@
   background-color: #00b38a;
   color: #fff;
 }
+.history .p_list_item .name:hover {
+  color: #00b38a;
+}
