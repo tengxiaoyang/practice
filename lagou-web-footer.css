@@ -124,6 +124,7 @@
 .copyright_main_left {
   display: flex;
   align-items: center;
+  padding: 27px 0 0 0;
 }
 .footer_lagou_gongan {
   display: inline-block;
@@ -136,10 +137,11 @@
   border: 1px solid #D5DADF;
   display: flex;
   align-items: center;
-  margin: 29px 22px;
   padding: 0px 13px;
   width: 157.16px;
-  height: 58.8px;
+  height: 50px;
+  position: relative;
+  left: 21px;
 }
 .lagou_jubao {
   display: inline-block;
@@ -159,7 +161,7 @@
 }
 .copyright_main_right {
   position: relative;
-  bottom: 74px;
+  bottom: 27px;
   left: 999px;
   display: inline-block;
   width: 198px;

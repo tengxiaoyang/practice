@@ -71,6 +71,7 @@ body {
   height: 40px;
   position: relative;
   left: 14px;
+  bottom: 40px;
 }
 .lg_tbar_r .passport {
   float: left;
