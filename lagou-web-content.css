@@ -532,7 +532,6 @@
   background-color: #00b38a;
   color: #fff;
 }
-}
 .has-more .btn-more:hover .triangle {
   position: absolute;
   border-bottom: 6px solid #00b38a;
@@ -553,4 +552,47 @@
   width: 997px;
   height: 100px;
   background: #fff;
+}
+.has-more-open {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.has-more-open .title {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-weight: 700;
+  color: #555555;
+  padding: 10px 10px;
+}
+.has-more-open .current_city {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  padding: 3px 8px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #ebebeb;
+}
+.has-more-open .hot-city-name {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 8px;
+  text-decoration: none;
+}
+.has-more-open .btn-more {
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  color: #555555;
+  padding: 10px 10px;
+  text-decoration: none;
+  position: absolute;
+  left: 875px;
+  top: 0;
+  cursor: pointer;
+}
+.has-more-open .btn-more .triangle {
+  position: absolute;
+  border-top: 6px solid #00b38a;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  top: 18px;
+  left: 44px;
 }
