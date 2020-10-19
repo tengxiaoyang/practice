@@ -333,7 +333,7 @@
   left: 528px;
   width: 303px;
 }
-.com_logo {
+.con_list_item_01 .com_logo {
   display: block;
   width: 60px;
   height: 60px;
@@ -350,6 +350,149 @@
   height: 60px;
   border: 1px solid #f5f5f5;
   background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/B1/74/CgoB5lv-bpWAM1hoAAAVcDTCKL0198.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_03 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image/M00/49/E7/Ciqc1F9QZJSAC0VBAACwLdjC9yo459.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_04 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_05 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/49/C4/CgotOV0HM-OAfkWWAAAU6q4o73Y021.jpg);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_06 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/49/C4/CgotOV0HM-OAfkWWAAAU6q4o73Y021.jpg);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_07 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/79/0A/CgoB5ltr2A-AM5SFAADbT9jQCn841.jpeg);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_08 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M00/1B/4B/CgotOVoCp2-ASdyzAAAM8w3Nqro734.jpg);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_09 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M00/12/13/CgoB5lntiXmATpObAAADmD3CZWM338.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_10 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M00/4B/BB/CgoB5lrzrD-AeEyMAACnZEurpKo412.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_11 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M00/4B/BB/CgoB5lrzrD-AeEyMAACnZEurpKo412.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_12 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/images/logo_default.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_13 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image/M00/53/39/CgpFT1l_Bb-AC7PxAAA1HFxsb4A207.png);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_14 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image2/M01/AD/A3/CgoB5lv0DkOAGt79AADYTUNCQgc603.jpg);
+  background-size: 60px 60px;
+  position: relative;
+  bottom: 77px;
+  left: 911px;
+}
+.con_list_item_15 .com_logo {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f5f5f5;
+  background: url(https://www.lgstatic.com/thumbnail_120x120/i/image/M00/49/E7/Ciqc1F9QZJSAC0VBAACwLdjC9yo459.png);
   background-size: 60px 60px;
   position: relative;
   bottom: 77px;
@@ -683,8 +826,8 @@
   font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
   padding: 3px 8px;
   text-decoration: none;
-  background-color: #fff;
-  color: #555;
+  background-color: #00b38a;
+  color: #fff;
   border: 1px solid #ebebeb;
 }
 .has-more-area .btn-more .has-more-open .current_city:hover {
@@ -728,12 +871,12 @@
 .has-more-area .btn-more .has-more-open .more_city .city_name {
   font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
   color: #555555;
-  padding: 10px 8px;
+  padding: 2px 12px;
   text-decoration: none;
   line-height: 23px;
 }
 .has-more-area .btn-more .has-more-open .more_city .city_name:hover {
-  padding: 2px 8px;
+  padding: 2px 12px;
   text-decoration: none;
   line-height: 23px;
   font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
