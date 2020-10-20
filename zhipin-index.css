@@ -333,8 +333,7 @@ body {
 }
 .search_input {
   width: 795px;
-  height: 48px;
-  margin: -1px 0 0 -1;
+  height: 49px;
   border: 0;
   font-size: 16px;
   padding: 0 0 0 16px;
@@ -348,9 +347,11 @@ body {
   color: #fff;
   font-size: 18px;
   text-align: center;
-  line-height: 46px;
-  margin: -1px -1px 0 0;
-  cursor: pointer
+  line-height: 47px;
+  margin: 0 0 0px 0;
+  padding: 0 0;
+  cursor: pointer;
+  border: 1px solid #00b38a;
 }
 .search_button:hover {
   background: #00a57f;

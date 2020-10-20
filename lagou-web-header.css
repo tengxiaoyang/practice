@@ -350,9 +350,8 @@ body {
 }
 .search_input {
   width: 795px;
-  height: 48px;
+  height: 49px;
   margin: 0px 0 0 0px;
-  border: 0;
   font-size: 16px;
   padding: 0 0 0 16px;
   border: 1px solid #e8e8e8;
@@ -360,15 +359,16 @@ body {
 }
 .search_button {
   width: 143px;
-  height: 48px;
+  height: 47px;
   background: #00b38a;
   color: #fff;
   font-size: 18px;
   text-align: center;
-  line-height: 46px;
-  margin: 0px 0px 0px 0;
-  padding: 0px 0;
+  line-height: 47px;
+  margin: 0 0 0 0;
+  padding: 0 0;
   cursor: pointer;
+  border: 1px solid #00b38a;
 }
 .search_button:hover {
   background: #00a57f;
