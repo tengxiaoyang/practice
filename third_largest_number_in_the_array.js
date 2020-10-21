@@ -18,7 +18,7 @@ function getNum(arr) {
       thi = sec;
       sec = max;
       max = arr[i];
-    } else if (max > arr[i] && arr[i] > sec) {
+    } else if (arr[i] > sec) {
       thi = sec;
       sec = arr[i];
     } else if (sec > arr[i] && arr[i] > thi) {
