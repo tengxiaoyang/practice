@@ -15,5 +15,5 @@ console.log(num);
 *全局: num = undefined; test = function; get = undefined; [scope] => null;
 test: num = undefined; 匿名函数 = function; [scope];
 匿名函数：num = undefined; [scope];
-结果: 0; undefined; 0;
+结果: 0; undefined; 1; undefined; 0;
 */
