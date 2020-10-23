@@ -12,8 +12,13 @@ var get = test();
 console.log(get());
 console.log(num);
 /*
-*全局: num = undefined; test = function; get = undefined; [scope] => null;
-test: num = undefined; 匿名函数 = function; [scope];
-匿名函数：num = undefined; [scope];
-结果: 0; undefined; 1; undefined; 0;
+*预解析：
+*全局作用域：num = undefined; get = undefined; [scope] = null;
+*函数作用域：num = undefined; [scope] = 全局作用域;
+*匿名函数作用域：[scope] = 函数作用域;
+*
+*执行：
+*在全局作用域，赋值num = 0; 函数声明不执行; 打印0; 赋值get = test()执行函数, 在函数作用域，打印undefined; 赋值num = 1; 打印1; 在全局作用域，打印get()执行匿名函数, 当前匿名函数作用域找不到num, 在上一层作用域赋值num = 5，然后打印undefined; 在全局作用域, 打印0;
+*
+*打印：0; undefined; 1; undefined; 0;
 */
