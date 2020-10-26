@@ -5,6 +5,7 @@ start.innerHTML = wait;
 function time() {
   -- wait;
   start.innerHTML = wait;
+  setTimeout(time, 1000);
 }
 
-setInterval(time, 1000)
+time();
