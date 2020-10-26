@@ -3,3 +3,29 @@
   height: 200px;
   border: 10px solid rgb(219, 213, 213);
 }
+#counter {
+  display: flex;
+  width: 800px;
+  height: 100px;
+  border: 10px solid rgb(219, 213, 213);
+  margin: 20px 0;
+}
+#counter #display {
+  width: 400px;
+  height: 97px;
+  border: 1px solid rgb(219, 213, 213);
+  text-align: center;
+  line-height: 97px;
+}
+#counter #counter_btn {
+  width: 400px;
+  height: 99px;
+  border: 1px solid rgb(219, 213, 213);
+}
+#circle {
+  width: 20px;
+  height: 20px;
+  border: 10px solid rgb(219, 213, 213);
+  border-radius: 20px;
+  margin: 20px 0;
+}
