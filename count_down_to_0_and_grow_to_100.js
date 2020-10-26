@@ -7,8 +7,8 @@ function time_3() {
   if (wait_3 === 0) {
     direction = -1;
     wait_3 = 1;
-  } else if (wait_3 === 1000) {
-
+  } else if (wait_3 === 101) {
+    wait_3 = 100;
   } else {
     wait_3 = wait_3 - 1*direction;
   }
