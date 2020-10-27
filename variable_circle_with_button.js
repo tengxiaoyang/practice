@@ -14,13 +14,15 @@ function time_circle() {
   circle.style.borderRadius = circle_wait + 'px';
 }
 
-
+var timer;
 
 circle.onclick = function start() {
-  var wid = circle.style.width;
-  if (wid > 20) {
-    clearInterval(start);
+  if (timer) {
+    clearInterval(timer);
+    timer = undefined;
+    console.log("1")
   } else {
-    setInterval(time_circle, 100);
+    timer = setInterval(time_circle, 100);
+    console.log("2")
   }
 }
