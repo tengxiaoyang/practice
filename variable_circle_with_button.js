@@ -15,13 +15,12 @@ function time_circle() {
 }
 
 
-var begin = function begin_circle() {
-  circle.onclick = function start() {
-    var wid = document.getElementById('circle').style.width;
-    if (wid === 20) {
-      setInterval(time_circle, 100);
-    } else {
-      clearInterval(start);
-    }
+
+circle.onclick = function start() {
+  var wid = circle.style.width;
+  if (wid > 20) {
+    clearInterval(start);
+  } else {
+    setInterval(time_circle, 100);
   }
 }
