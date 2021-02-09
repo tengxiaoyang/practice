@@ -1,0 +1,55 @@
+<html>
+<head></head>
+<body></body>
+<script>
+
+// 一、Foo是一个构造函数
+function Foo(name) {
+  this.name = name;
+  this.age = 20;
+  this.test = "你好，顺序02"
+}
+
+// 二、newFoo是Foo的实例对象
+let newFoo = new Foo("李明");
+newFoo.test = "你好，顺序01"
+
+// 三、newFoo的原型，也就是Foo的原型对象是Foo.prototype：
+console.log(`三、${newFoo.__proto__ === Foo.prototype}`)
+Foo.prototype.fn = function() {
+  console.log("f");
+}
+Foo.prototype.test = "你好，顺序03";
+
+// 四、Foo.prototype的原型是Object.prototype：
+console.log(`四、${Foo.prototype.__proto__ === Object.prototype}`)
+Object.prototype.test = "你好，顺序04";
+
+
+// 原型链查找顺序：
+// 1.实例对象自身：newFoo
+// 2.实例对象的构造函数：Foo
+// 3.实例对象的原型，也就是构造函数的原型对象：
+console.log(`3.${
+  newFoo.__proto__ === Foo.prototype
+}`);
+// 4.实例对象的原型的原型，也就是构造函数的原型对象的原型，在这里是Object的原型对象：
+console.log(`4.${
+  newFoo.__proto__.__proto__ === Foo.prototype.__proto__ 
+  && Foo.prototype.__proto__ === Object.prototype
+}`);
+
+
+console.log(newFoo.test);
+
+
+// 打印结果：
+// 三、true
+// 四、true
+// 3.true
+// 4.true
+// 你好，顺序01
+
+
+</script>
+</html>
