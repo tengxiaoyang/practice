@@ -14,7 +14,7 @@ function Foo(name) {
 let newFoo = new Foo("李明");
 newFoo.test = "你好，查找顺序01"
 
-// 三、newFoo的原型，也就是Foo的原型对象是Foo.prototype：
+// 三、newFoo的原型，也就是Foo的原型对象，是Foo.prototype：
 console.log(`三、${newFoo.__proto__ === Foo.prototype}`)
 Foo.prototype.fn = function() {
   console.log("f");
