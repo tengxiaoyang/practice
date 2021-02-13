@@ -1,0 +1,40 @@
+<html>
+<head></head>
+<body></body>
+<script>
+
+// foo是一个函数
+function foo(name, age) {
+  console.log(this);
+  console.log(`姓名：${name}，年龄：${age}`);
+}
+
+// obj是一个对象
+let obj = {
+  count: 1
+}
+
+foo("小明", "23");
+// 运行结果：
+// Window
+// 姓名：小明，年龄：23
+
+// call、apply、bind可以让foo的this指向obj
+
+foo.call(obj, "小明", "23");
+// 运行结果：
+// {count: 1}
+// 姓名：小明，年龄：23
+
+foo.apply(obj, ["小明", "23"]);
+// 运行结果：
+// {count: 1}
+// 姓名：小明，年龄：23
+
+foo.bind(obj, "小明", "23")();
+// 运行结果：
+// {count: 1}
+// 姓名：小明，年龄：23
+
+</script>
+</html>
