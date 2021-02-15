@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+  // ES5构造函数：
+  // function Person(name) {
+  //   this.name = name;
+  //   this.age = 20;
+  // }
+  // Person.prototype.fn = function() {
+  //   console.log("...");
+  // }
+
+  // ES5静态属性：
+// Person.num = 10;
+
+  // ES6构造函数：
+  class Person {
+    static num = 10; //ES6静态属性
+    #height = "173cm"; //ES2020私有属性
+    constructor(name) {
+      this.name = name;
+      this.age = 20;
+    }
+    fn() {
+      console.log("...");
+    }
+    // 需要通过公有方法调取私有属性：
+    getAge() {
+      return this.#height;
+    }
+  }
+
+  // 调取静态属性不需要实例化：
+  console.log(Person.num);
+
+  // 实例化：
+  let zhangsan = new Person("张三");
+  // 构造函数中的this指向实例化对象zhangsan
+  // "张三"传入constructor中，赋值给了this.name
+
+  // 调取属性：
+  console.log(zhangsan.name);
+  console.log(zhangsan.age);
+
+  // 调取方法：
+  zhangsan.fn();
+
+  // 调取私有属性：
+  console.log(zhangsan.getAge());
+
+  // 运行结果：
+  // 10
+  // 张三
+  // 20
+  // ...
+  // 173cm
+</script>
+</html>
