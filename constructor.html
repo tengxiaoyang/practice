@@ -12,28 +12,29 @@
 <script>
   // ES5构造函数：
   // function Person(name) {
-  //   this.name = name;
+  //   this.name = name; //公共属性
   //   this.age = 20;
   // }
   // Person.prototype.fn = function() {
   //   console.log("...");
-  // }
+  // } //公共方法
 
   // ES5静态属性：
   // Person.num = 10;
 
-  // ES6构造函数：
+  // ES6类：
   class Person {
     static num = 10; //ES6静态属性
     #height = "173cm"; //ES2020私有属性
     constructor(name) {
-      this.name = name;
+      this.name = name; //公共属性
       this.age = 20;
-    }
+    } //构造函数
     fn() {
       console.log("...");
-    }
-    // 需要通过公有方法调取私有属性：
+    } //公共方法
+
+    // 需要通过公共方法调取私有属性：
     getAge() {
       return this.#height;
     }
