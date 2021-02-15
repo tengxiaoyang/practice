@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+  // ES5继承：
+  // function Dad(height) {
+  //   this.name = "小明";
+  //   this.age = 52;
+  //   this.height = height;
+  // }
+
+  // function Son(height) {
+  //   Dad.call(this, height);
+  //   // Dad.apply(this, [height]);
+  //   // Dad.bind(this, height)();
+  // }
+
+  // let newSon = new Son("178cm");
+  // console.log(newSon);
+  
+  // ES6继承：
+  class Dad {
+    static num = 10;
+    constructor(height) {
+      this.name = "小明";
+      this.age = 52;
+      this.height = height;
+    }
+    fn() {
+      console.log("Dad fn...");
+    } //公共方法
+  }
+
+  class Son extends Dad {
+    constructor(height) {
+      super(height); //相当于调取Dad的constructor，把height传入Dad
+      // super要放在this之前
+      this.hobby = "篮球";
+    } //用constructor传参、定义属性
+    fn() {
+      super.fn(); //调取父类fn方法
+      console.log("Son fn...");
+    } //公共方法
+  }
+
+  console.log(Son.num);
+  let newSon = new Son("178cm");
+  console.log(newSon);
+  newSon.fn(); 
+  
+  // 运行结果：
+  // 10
+  // Son
+  // Dad fn...
+  // Son fn...
+</script>
+</html>
