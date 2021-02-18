@@ -1,4 +1,4 @@
-// 要删除非空文件夹，需要先把文件夹里的文件删除，再删除空目录
+// 要删除非空文件夹，需要先把文件夹里的文件删除，再删除空文件夹
 
 function removeDir(path) {
   let data = fs.readdirSync(path); //data是一个数组，文件夹名和文件名用引号括起来，如["1", "2.txt", "3.html"]
