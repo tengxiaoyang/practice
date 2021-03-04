@@ -25,5 +25,15 @@ const arr = [
 ]
 console.log(arr.filter(item => item.age > 20))
 
+// 7.查找索引：
+[1, 2, 3, 4, 5].indexOf(2)
 
+// 8.连接数组：
+const arr_01 = [1, 2, 3]
+const arr_02 = [4, 5, 6]
+console.log([...arr_01, ...arr_02])
+
+// 9.数组去重：
+const arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 5]
+console.log([...new Set(arr)])
 
