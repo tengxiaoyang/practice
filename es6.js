@@ -15,7 +15,7 @@ name = 'xiaopang'
 console.log(name)
 
 
-// 二、字符串————模板字符串————`my name is${name}`：
+// 二、字符串————模板字符串————`my name is ${name}`：
 
 const name = 'pangpang'
 const work = 'civil servant'
@@ -178,8 +178,3 @@ console.log(mod_01) //返回一个对象
 // async、await、
 // 对象拓展符、
 // 函数绑定
-
-
-
-
-
