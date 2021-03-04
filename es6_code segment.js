@@ -37,3 +37,32 @@ console.log([...arr_01, ...arr_02])
 const arr = [1, 2, 3, 4, 4, 3, 2, 1, 5, 6, 5]
 console.log([...new Set(arr)])
 
+
+// 二、对象：
+
+// 1.获取对象的key：
+Object.keys({name: 'pangpang', age: 23})
+
+// 2.获取对象里数据的数量：
+Object.keys({name: 'pangpang', age: 23}).length
+
+// 3.遍历每个key、value为数组：
+console.log(Object.entries({name: 'pangpang', age: 23})) 
+// [ ["name", "pangpang"], ["age", 23] ]
+
+// 4.extend功能：
+const person = {
+  name: 'pangpang', 
+  age: 23
+}
+const workPerson = {
+  ...person, 
+  work: 'civil servant', 
+  game: 'Arknights'
+}
+console.log(workPerson)
+
+// 5.获取列表的头和尾：
+const [head, ...tail] = [1, 2, 3, 4, 5]
+const [last, ...initial] = [1, 2, 3, 4, 5].reverse()
+console.log(`head is ${head}, last is ${last}`) //head is 1, last is 5
