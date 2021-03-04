@@ -119,6 +119,13 @@ console.log(`name is ${name}, work is ${work}`)
 
 // 六、类：
 
+function MyApp() {
+  this.name = 'pangpang' //公共属性
+}
+MyApp.prototype.sayHello = function() {
+  console.log(`hello ${this.name}!`)
+} //公共方法
+
 class MyApp {
   constructor() {
     this.name = 'pangpang' //公共属性
